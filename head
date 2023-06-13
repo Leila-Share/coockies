@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Параграф изменен.";
+}
+</script>
+</head>
+<body>
+
+<h2>JavaScript в Head</h2>
+
+<p id="demo">Параграф</p>
+
+<button type="button" onclick="myFunction()">Попробовать</button>
+
+</body>
+</html>
